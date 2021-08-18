@@ -1,0 +1,7 @@
+@use '../custom' as *;
+@use '../components/mixins.scss' as *;
+
+.expertness {
+  background: $white;
+  position: relative;
+}

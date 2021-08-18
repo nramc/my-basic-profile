@@ -1,0 +1,43 @@
+@use '../custom' as *;
+@use 'mixins' as *;
+
+.btn-rounded {
+  position: relative;
+  padding: 0.5rem 3.5rem 0.5rem 0.5rem;
+  font-weight: 700;
+  margin: 0;
+  border: 0.1rem solid rgba($white, 0.6);
+  background-color: $white;
+  display: block;
+
+  @include media-breakpoint-up(sm) {
+    padding: 0.8375rem 4.375rem 0.8375rem 1.25rem;
+  }
+
+  span {
+    position: absolute;
+    background-color: $primary;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-image: url("../../assets/images/svg/icons/arrow-down-right-circle.svg");
+
+    i {
+      color: $white;
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+
+  &:hover {
+    @include gradient;
+    color: $white;
+
+    span {
+      background-color: rgba($black, 0.6);
+    }
+  }
+}

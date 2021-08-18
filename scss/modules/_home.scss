@@ -1,0 +1,63 @@
+@use '../custom' as *;
+@use '../components/mixins.scss' as *;
+
+.home {
+  margin: 4.5rem 0 2rem 0;
+  background: url("../../assets/images/svg/home-wave.svg") no-repeat 100% 100%;
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+
+  &__intro {
+    text-align: center;
+    align-items: center;
+    padding-bottom: 5rem;
+
+    @include media-breakpoint-up(sm) {
+      padding-bottom: 16rem;
+    }
+
+    &__description {
+      @include gradient;
+      font-size: 1.5rem;
+      border-radius: 1rem;
+      padding: 2rem;
+      color: $white;
+      text-align: center;
+      align-items: center;
+      text-align: justify;
+
+      @include media-breakpoint-up(sm) {
+        margin-left: 3rem;
+        font-size: 2.5rem;
+      }
+
+      span {
+        font-size: 1.3rem;
+        @include media-breakpoint-up(sm) {
+          font-size: 1.5rem;
+        }
+      }
+
+      button {
+        left: 50%;
+        font-size: 1.5rem;
+      }
+    }
+
+    &__pic {
+      &__icon {
+        object-fit: cover;
+        overflow: hidden;
+        width: 90%;
+      }
+
+      &__certificates {
+        .certificate-logo {
+          height: 10rem;
+        }
+      }
+    }
+  }
+}
