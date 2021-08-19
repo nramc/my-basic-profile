@@ -1,0 +1,48 @@
+@use '../custom' as *;
+@use '../components/mixins.scss' as *;
+
+.skills {
+  min-height: 100vh;
+
+  &__content {
+    .col {
+      padding: 0 0.7rem 0.7rem 0;
+
+      .card {
+        border-radius: 1rem;
+        border-color: $primary;
+        box-shadow: yellow;
+        //height: 20rem;
+
+        .logo-container {
+          img {
+            padding-top: 50%;
+            padding-left: 5%;
+            width: 100%;
+            fill: $primary;
+          }
+        }
+
+        .card-header {
+          @include gradient;
+          color: $white;
+          border-start-start-radius: 1rem;
+          border-start-end-radius: 1rem;
+        }
+
+        .card-body {
+          li {
+            background-color: transparent;
+            color: $primary;
+            font-size: 1.1rem;
+            font-weight: 500;
+          }
+        }
+      }
+
+      ul {
+        background: transparent;
+      }
+    }
+  }
+}
