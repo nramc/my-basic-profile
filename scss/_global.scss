@@ -25,3 +25,11 @@ hr {
   @include gradient;
   opacity: 0.95;
 }
+
+.icons {
+  fill: $primary;
+}
+
+section {
+  padding-top: 7vh;
+}

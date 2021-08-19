@@ -10754,6 +10754,14 @@ hr {
   opacity: 0.95;
 }
 
+.icons {
+  fill: #371a94;
+}
+
+section {
+  padding-top: 7vh;
+}
+
 .btn-rounded {
   position: relative;
   padding: 0.5rem 3.5rem 0.5rem 0.5rem;
@@ -10861,6 +10869,39 @@ hr {
 }
 .home__intro__pic__certificates .certificate-logo {
   height: 10rem;
+}
+
+.skills {
+  min-height: 100vh;
+}
+.skills__content .col {
+  padding: 0 0.7rem 0.7rem 0;
+}
+.skills__content .col .card {
+  border-radius: 1rem;
+  border-color: #371a94;
+  box-shadow: yellow;
+}
+.skills__content .col .card .logo-container img {
+  padding-top: 50%;
+  padding-left: 5%;
+  width: 100%;
+  fill: #371a94;
+}
+.skills__content .col .card .card-header {
+  background: linear-gradient(to right, rgba(55, 26, 148, 0.95), rgba(144, 71, 212, 0.95));
+  color: #fff;
+  border-start-start-radius: 1rem;
+  border-start-end-radius: 1rem;
+}
+.skills__content .col .card .card-body li {
+  background-color: transparent;
+  color: #371a94;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.skills__content .col ul {
+  background: transparent;
 }
 
 .expertness {
