@@ -25,3 +25,19 @@ hr {
   @include gradient;
   opacity: 0.95;
 }
+
+.icons {
+  fill: $primary;
+}
+
+section {
+  padding-top: 7vh;
+}
+
+.text-gradient {
+  @include text-gradient;
+}
+
+ul.square-bullet-list {
+  list-style: square;
+}

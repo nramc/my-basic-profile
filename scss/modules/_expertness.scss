@@ -4,4 +4,25 @@
 .expertness {
   background: $white;
   position: relative;
+  min-height: 100vh;
+  background: url("../../assets/images/svg/expertness-wave.svg") no-repeat 100%
+    100%;
+
+  &__content {
+    &__text {
+      color: $primary;
+      margin-bottom: 3rem;
+
+      &__list {
+        li {
+          margin-top: 1rem;
+        }
+      }
+    }
+    &__img {
+      @include media-breakpoint-down(lg) {
+        margin-bottom: 2rem;
+      }
+    }
+  }
 }

@@ -10754,6 +10754,26 @@ hr {
   opacity: 0.95;
 }
 
+.icons {
+  fill: #371a94;
+}
+
+section {
+  padding-top: 7vh;
+}
+
+.text-gradient {
+  background-image: linear-gradient(to right, #371a94, #9047d4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+ul.square-bullet-list {
+  list-style: square;
+}
+
 .btn-rounded {
   position: relative;
   padding: 0.5rem 3.5rem 0.5rem 0.5rem;
@@ -10812,7 +10832,6 @@ hr {
 .home {
   margin: 4.5rem 0 2rem 0;
   background: url("../../assets/images/svg/home-wave.svg") no-repeat 100% 100%;
-  min-height: 100vh;
   width: 100%;
   text-align: center;
   align-items: center;
@@ -10824,7 +10843,7 @@ hr {
 }
 @media (min-width: 576px) {
   .home__intro {
-    padding-bottom: 16rem;
+    padding-bottom: 10rem;
   }
 }
 .home__intro__description {
@@ -10843,17 +10862,16 @@ hr {
     font-size: 2.5rem;
   }
 }
-.home__intro__description span {
+.home__intro__description p {
   font-size: 1.3rem;
 }
 @media (min-width: 576px) {
-  .home__intro__description span {
-    font-size: 1.5rem;
+  .home__intro__description p {
+    font-size: 1.2rem;
   }
 }
-.home__intro__description button {
-  left: 50%;
-  font-size: 1.5rem;
+.home__intro__description a {
+  color: #f8f9fa;
 }
 .home__intro__pic__icon {
   object-fit: cover;
@@ -10863,10 +10881,71 @@ hr {
 .home__intro__pic__certificates .certificate-logo {
   height: 10rem;
 }
+.home__tagline h1 {
+  background-image: linear-gradient(to right, #371a94, #9047d4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.skills {
+  min-height: 100vh;
+}
+.skills__content .col {
+  padding: 0 0.7rem 0.7rem 0;
+}
+.skills__content .col .card {
+  border-radius: 1rem;
+  border-color: #371a94;
+  box-shadow: yellow;
+}
+.skills__content .col .card .logo-container img {
+  padding-left: 5%;
+  width: 100%;
+  fill: #371a94;
+}
+@media (min-width: 768px) {
+  .skills__content .col .card .logo-container img {
+    padding-top: 50%;
+  }
+}
+.skills__content .col .card .card-header {
+  background: linear-gradient(to right, rgba(55, 26, 148, 0.95), rgba(144, 71, 212, 0.95));
+  color: #fff;
+  border-start-start-radius: 1rem;
+  border-start-end-radius: 1rem;
+  height: 3rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.skills__content .col .card .card-body li {
+  background-color: transparent;
+  color: #371a94;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.skills__content .col ul {
+  background: transparent;
+}
 
 .expertness {
   background: #fff;
   position: relative;
+  min-height: 100vh;
+  background: url("../../assets/images/svg/expertness-wave.svg") no-repeat 100% 100%;
+}
+.expertness__content__text {
+  color: #371a94;
+  margin-bottom: 3rem;
+}
+.expertness__content__text__list li {
+  margin-top: 1rem;
+}
+@media (max-width: 991.98px) {
+  .expertness__content__img {
+    margin-bottom: 2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
