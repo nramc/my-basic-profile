@@ -14,7 +14,7 @@
     padding-bottom: 5rem;
 
     @include media-breakpoint-up(sm) {
-      padding-bottom: 16rem;
+      padding-bottom: 10rem;
     }
 
     &__description {
@@ -32,16 +32,15 @@
         font-size: 2.5rem;
       }
 
-      span {
+      p {
         font-size: 1.3rem;
         @include media-breakpoint-up(sm) {
-          font-size: 1.5rem;
+          font-size: 1.2rem;
         }
       }
 
-      button {
-        left: 50%;
-        font-size: 1.5rem;
+      a {
+        color: $gray-100;
       }
     }
 
@@ -57,6 +56,12 @@
           height: 10rem;
         }
       }
+    }
+  }
+
+  &__tagline {
+    h1 {
+      @include text-gradient;
     }
   }
 }
