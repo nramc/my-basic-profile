@@ -10883,10 +10883,14 @@ section {
   box-shadow: yellow;
 }
 .skills__content .col .card .logo-container img {
-  padding-top: 50%;
   padding-left: 5%;
   width: 100%;
   fill: #371a94;
+}
+@media (min-width: 768px) {
+  .skills__content .col .card .logo-container img {
+    padding-top: 50%;
+  }
 }
 .skills__content .col .card .card-header {
   background: linear-gradient(to right, rgba(55, 26, 148, 0.95), rgba(144, 71, 212, 0.95));
