@@ -10762,6 +10762,18 @@ section {
   padding-top: 7vh;
 }
 
+.text-gradient {
+  background-image: linear-gradient(to right, #371a94, #9047d4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+ul.square-bullet-list {
+  list-style: square;
+}
+
 .btn-rounded {
   position: relative;
   padding: 0.5rem 3.5rem 0.5rem 0.5rem;
@@ -10914,6 +10926,20 @@ section {
 .expertness {
   background: #fff;
   position: relative;
+  min-height: 100vh;
+  background: url("../../assets/images/svg/expertness-wave.svg") no-repeat 100% 100%;
+}
+.expertness__content__text {
+  color: #371a94;
+  margin-bottom: 3rem;
+}
+.expertness__content__text__list li {
+  margin-top: 1rem;
+}
+@media (max-width: 991.98px) {
+  .expertness__content__img {
+    margin-bottom: 2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

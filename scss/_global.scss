@@ -33,3 +33,11 @@ hr {
 section {
   padding-top: 7vh;
 }
+
+.text-gradient {
+  @include text-gradient;
+}
+
+ul.square-bullet-list {
+  list-style: square;
+}
