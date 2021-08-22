@@ -13,9 +13,9 @@
     <title>My Profile</title>
   </head>
 
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navMenu">
     <!-- Menu bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top" id="navMenu">
       <div class="container">
         <button
           class="navbar-toggler"
@@ -34,7 +34,7 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#homeSection">Home</a>
             </li>
 
             <li class="nav-item">
@@ -44,7 +44,7 @@
               <a class="nav-link" href="#expertnessSection">Expertness</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Responsibilities</a>
+              <a class="nav-link" href="#rolesSection">Responsibilities</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Achievement</a>
@@ -406,18 +406,7 @@
                 </div>
               </div>
 
-
-
-
           </div>
-
-
-
-
-
-
-
-
 
         </div>
       </div>
@@ -448,6 +437,7 @@
                   <ul class="square-bullet-list">
                     <li>Java upgrade from JDK1.6 to JDK8 & JDK8 to JDK11</li>
                     <li>Java Spring upgrade from 2.5 to 4.1 & 4.1 to 5.2</li>
+                    <li>Apache Wicket upgrade from 8.x to 9.x</li>
                     <li>Hibernate Upgrade from 3.0 to 4.5</li>
                     <li>Transformation from Velocity template to FreeMarker templates</li>
                     <li>Transformation from JUnit4 tests to Junit5 [approx. 4.5K] </li>
@@ -483,6 +473,123 @@
         </div>
       </div>
     </section>
+
+    <!-- ########################## Roles & Responsibilities ########################## -->
+
+    <section id="rolesSection" class="roles">
+      <div class="container">
+        <div class="roles__header">
+          <h1 class="title">Roles & Responsibilities</h1>
+          <hr size="10" />
+        </div>
+        <div class="row roles__content">
+          <div class="col-12">
+
+            <div class="accordion roles__content__accordion" id="rolesAccordion">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <h6> <img src="./assets/images/svg/icons/java-icon.svg" class="role-icon" alt="Java"/> Java Designer & Developer</h6>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#rolesAccordion">
+                  <div class="accordion-body">
+
+                    <ul class="square-bullet-list">
+                      <li>8+ years of commendable experience in J2EE web application development</li>
+                      <li>Performed major framework upgrades in Spring, Hibernate & Apache Wicket</li>
+                      <li>Developed various modules using Spring and Hibernate Framework to improve application performance and user experiance,
+                        <ul class="col-span-2 mt-2 mb-2 circle-checked-bullet-list">
+                          <li>Implemented JWT Token based Authentication & Authorization</li>
+                          <li>HTML Based Email Notification using CKEditor & FreeMarker</li>
+                          <li>Push Notification using Spring Web Socket</li>
+                          <li>Hot Keys Implementation</li>
+                          <li>Java & Hibernate Second Level caching</li>
+                          <li>Web Incident Reporting Tool</li>
+                        </ul>
+                      </li>
+                      <li>Implemented CICD pipeline from the scratch using Jenkins</li>
+                      <li>Automated Database Deployment using Flyway in CICD pipeline</li>
+                      <li>Automated E2E Test usecases using JGiven, Selenium & TestNG</li>
+                      <li>Introduced various libraries to improve application security,
+                        <ul class="col-span-2 mt-2 circle-checked-bullet-list">
+                          <li>OWASP's ESAPI, Encoder & CSRFGuard</li>
+                          <li>ClamAV to scan files for vulnerabilities</li>
+                          <li>Aspose for image resizing to remove embeded vulnerable scripts</li>
+                          <li>OWASP ZAP Tool for security testing</li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    <h6> <img src="./assets/images/svg/icons/angular-icon.svg" class="role-icon" alt="Java"/> Angular Developer</h6>
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#rolesAccordion">
+                  <div class="accordion-body">
+
+                    <ul class="square-bullet-list">
+                      <li>Implemented JWT based Authentication & Authorization</li>
+                      <li>Implemented various modules using RxJs & Redux state management libraries</li>
+                      <li>Automated E2E test usecases using Cocumber & Jasmine</li>
+                      <li>Implemented various plugins using jQuery, jQuery UI, jqGrid & CKEditor to improve application performance and user experiance</li>
+                      <li>Migrated Velocity template to Angular template</li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <h6> <img src="./assets/images/svg/icons/database-icon.svg" class="role-icon" alt="Java"/>Oracle PL/SQL Developer</h6>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#rolesAccordion">
+                  <div class="accordion-body">
+
+                    <ul class="square-bullet-list">
+                      <li>Having Good experiance in SQL & PLSQL Development with 11g, 12c, 18c versions</li>
+                      <li>Oracle Certified PLSQL Developer</li>
+                      <li>Having 2+ years of experiance as ASG DBA</li>
+                      <li>Performed THREE database upgrades from 11g to 18c</li>
+                      <li>Automated Database deployment using Flyway in CICD pipeline</li>
+                      <li>Performed various database performance tuning activites and data modeling,
+                        <ul class="circle-checked-bullet-list col-span-3">
+                          <li>Indexing</li>
+                          <li>Query rewriting</li>
+                          <li>Partitioning</li>
+                          <li>Flashback Archive</li>
+                          <li>Second Level Caching</li>
+                          <li>Job Scheduling</li>
+                        </ul>
+                      </li>
+                      <li>Implemented new plugin to automate archive & purge partitions from source to archive table based on retention & purge policy</li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
