@@ -9,6 +9,14 @@
   );
 }
 
+@mixin light-gradient {
+  background: linear-gradient(
+    to right,
+    rgba($secondary, 0.95),
+    rgba($white, 0.95)
+  );
+}
+
 // ABSOLUTE CENTER
 @mixin absoluteCenter {
   position: absolute;
