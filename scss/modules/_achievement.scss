@@ -19,10 +19,7 @@
       border-width: 0.4rem;
 
       .vendor-logo {
-        position: relative;
-
         img {
-          @include absoluteCenter;
           max-height: 10rem;
           max-width: 10rem;
         }

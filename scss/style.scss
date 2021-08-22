@@ -4,6 +4,7 @@
 
 // Import components
 @use 'components/buttons';
+@use 'components/timeline';
 
 // Import application specific modules
 @use 'modules/navbar';
@@ -12,3 +13,5 @@
 @use 'modules/expertness';
 @use 'modules/roles';
 @use 'modules/achievement';
+@use 'modules/experience';
+@use 'modules/education';

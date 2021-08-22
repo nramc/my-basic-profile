@@ -1,0 +1,9 @@
+@use '../custom' as *;
+@use '../components/mixins.scss' as *;
+
+.education {
+  min-height: 100vh;
+  background: url("../../assets/images/svg/roles-wave.svg") no-repeat 100%;
+  background-position-y: bottom;
+  padding-bottom: 4rem;
+}

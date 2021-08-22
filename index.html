@@ -1,429 +1,508 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="icon" type="image/svg+xml" href="assets/images/svg/icons/markup-icon.svg">
-    <link rel="alternate icon" href="favicon.ico">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/images/svg/icons/markup-icon.svg">
+  <link rel="alternate icon" href="favicon.ico">
 
-    <title>My Profile</title>
-  </head>
+  <link rel="stylesheet" href="assets/css/style.css" />
 
-  <body data-bs-spy="scroll" data-bs-target="#navMenu">
-    <!-- Menu bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top" id="navMenu">
-      <div class="container">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-lg-start"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#homeSection">Home</a>
-            </li>
+  <title>My Profile</title>
+</head>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#skillsSection">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#expertnessSection">Expertness</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#rolesSection">Responsibilities</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#achievementSection">Achievement</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Education</a>
-            </li>
+<body data-bs-spy="scroll" data-bs-target="#navMenu">
+  <!-- Menu bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top" id="navMenu">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-lg-start" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#homeSection">Home</a>
+          </li>
 
-            <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
-          </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#skillsSection">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#expertnessSection">Expertness</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#rolesSection">Responsibilities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#achievementSection">Achievement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experienceSection">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#educationSection">Education</a>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home page section -->
+  <section class="home" id="homeSection">
+    <div class="container-fluid">
+      <div class="home__intro">
+        <div class="row">
+          <div class="home__intro__description col-lg-6">
+            <h2 class="mb-4">Hey, Welcome..!, I'm Ram.</h2>
+            <p>
+              I have 8+ years of experiance as a Full Stack Software Developer with Agile methodology.
+              I have designed and built many Responsive Web Application using latest software stack.
+            </p>
+
+            <p>
+              I have worked in Frontend Development with <em>Angular, Sass, Bootstrap</em> and
+              Backend Development with <em>Java Spring, Hibernate & Apache Wicket</em>. I have used Oracle Database for data storage.
+            </p>
+
+            <p>
+              I am looking for new avenues to grow further as a Developer and ready to explore more oppertunities.
+            </p>
+
+            <p>
+              You can find out more <a href="#aboutMe" class="aboutMeLink">about me</a>.
+            </p>
+
+          </div>
+          <div class="home__intro__pic col-lg-3">
+            <div class="row">
+              <div class="col-md-7 col-lg-12">
+                <img src="assets/images/svg/web-developer-icon.svg" class="home__intro__pic__icon" />
+              </div>
+              <div class="home__intro__pic__certificates col-md-1 col-lg-12">
+                <div class="first-logo">
+                  <img src="assets/images/oracle-plsql-certificate.png" alt="Oracle Certified PLSQL Developer" class="certificate-logo" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row home__tagline">
+          <div class="col-12 h-100 text-sm-end mt-5">
+            <div class="w-30 float-end">
+              <h1 class="mr-4"> Always aim to be the BEST..!</h1><span class="fs-4">👍</span>
+              <hr size="10">
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
+    </div>
 
-    <!-- Home page section -->
-    <section class="home" id="homeSection">
-      <div class="container-fluid">
-        <div class="home__intro">
-          <div class="row">
-            <div class="home__intro__description col-lg-6">
-              <h2 class="mb-4">Hey, Welcome..!, I'm Ram.</h2>
-              <p>
-                I have 8+ years of experiance as a Full Stack Software Developer with Agile methodology.
-                I have designed and built many Responsive Web Application using latest software stack.
-              </p>
+    </div>
+  </section>
 
-              <p>
-                I have worked in Frontend Development with <em>Angular, Sass, Bootstrap</em> and
-                Backend Development with <em>Java Spring, Hibernate & Apache Wicket</em>. I have used Oracle Database for data storage.
-              </p>
+  <!-- ########################## Skills ########################## -->
+  <section id="skillsSection" class="skills ">
+    <div class="container">
+      <div class="skills__header">
+        <h1 class="title">Skills - Programming Languages & Technologies</h1>
+        <hr size="10" />
+      </div>
 
-              <p>
-                I am looking for new avenues to grow further as a Developer and ready to explore more oppertunities.
-              </p>
+      <div class="skills__content">
+        <div class="row row-cols-1 row-cols-md-3">
 
-              <p>
-                You can find out more <a href="#aboutMe" class="aboutMeLink">about me</a>.
-              </p>
-
-            </div>
-            <div class="home__intro__pic col-lg-3">
-              <div class="row">
-                <div class="col-md-7 col-lg-12">
-                  <img
-                    src="assets/images/svg/web-developer-icon.svg"
-                    class="home__intro__pic__icon"
-                  />
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-header">
+                <h6>Backend: Programming Languages & Frameworks</h5>
+              </div>
+              <div class="row g-0">
+                <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
+                  <img src="./assets/images/svg/icons/backend-service-icon.svg" class="img-fluid rounded-start" alt="Backend Development">
                 </div>
-                <div class="home__intro__pic__certificates col-md-1 col-lg-12">
-                  <div class="first-logo">
-                    <img
-                      src="assets/images/oracle-plsql-certificate.png"
-                      alt="Oracle Certified PLSQL Developer"
-                      class="certificate-logo"
-                    />
+                <div class="col-sm-8 col-md-8">
+                  <div class="card-body">
+                    <div class="card-title"></div>
+                    <div class="card-text">
+                      <ul class="list-group">
+                        <li class="list-group-item border-0">
+                          <h6>Core Java</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Spring Frameworks</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Hibernate</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>JAX-RS REST Services</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>JAX-WS SOAP Services</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Apache Wicket Frameworks</h6>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row home__tagline">
-            <div class="col-12 h-100 text-sm-end mt-5">
-              <div class="w-30 float-end">
-                <h1 class="mr-4"> Always aim to be the BEST..!</h1><span class="fs-4">👍</span>
-                <hr size="10">
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-header align-items-center text-center">
+                <h6>Frontend: Programming Languages & Frameworks</h5>
+              </div>
+              <div class="row g-0">
+                <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
+                  <img src="./assets/images/svg/icons/web-development-icon.svg" class="img-fluid rounded-start" alt="Frontend Development">
+                </div>
+                <div class="col-sm-8 col-md-8">
+                  <div class="card-body">
+                    <div class="card-title"></div>
+                    <div class="card-text">
+                      <ul class="list-group">
+                        <li class="list-group-item border-0">
+                          <h6>Angular</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Bootstrap</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>HTML5 & CSS3</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Sass</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>JSP & JSTL</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>JS & jQuery</h6>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      </div>
-    </section>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-header">
+                <h6>Backend: Persistent Database</h5>
+              </div>
 
-    <!-- ########################## Skills ########################## -->
-    <section id="skillsSection" class="skills ">
-      <div class="container">
-        <div class="skills__header">
-          <h1 class="title">Skills - Programming Languages & Technologies</h1>
-          <hr size="10" />
-        </div>
-
-        <div class="skills__content">
-          <div class="row row-cols-1 row-cols-md-3">
-
-            <div class="col">
-                <div class="card h-100">
-                  <div class="card-header">
-                    <h6>Backend: Programming Languages & Frameworks</h5>
-                  </div>
-                  <div class="row g-0">
-                    <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
-                      <img src="./assets/images/svg/icons/backend-service-icon.svg"
-                       class="img-fluid rounded-start" alt="Backend Development">
+              <div class="row g-0">
+                <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
+                  <img src="./assets/images/svg/icons/backend-database-development-icon.svg" class="img-fluid rounded-start" alt="Database Development">
+                </div>
+                <div class="col-sm-8 col-md-8">
+                  <div class="card-body">
+                    <div class="card-title"></div>
+                    <div class="card-text">
+                      <ul class="list-group">
+                        <li class="list-group-item border-0">
+                          <h6>Oracle Database 11g-18c</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>SQL</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>PLSQL</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>DBA (Beginner Level)</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Flyway</h6>
+                        </li>
+                      </ul>
                     </div>
-                    <div class="col-sm-8 col-md-8">
-                      <div class="card-body">
-                        <div class="card-title"></div>
-                        <div class="card-text">
-                          <ul class="list-group">
-                            <li class="list-group-item border-0"><h6>Core Java</h6></li>
-                            <li class="list-group-item border-0"><h6>Spring Frameworks</h6></li>
-                            <li class="list-group-item border-0"><h6>Hibernate</h6></li>
-                            <li class="list-group-item border-0"><h6>JAX-RS REST Services</h6></li>
-                            <li class="list-group-item border-0"><h6>JAX-WS SOAP Services</h6></li>
-                            <li class="list-group-item border-0"><h6>Apache Wicket Frameworks</h6></li>
-                          </ul>
-                        </div>
-                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-header">
+                <h6>Spring Projects</h5>
+              </div>
+
+              <div class="row g-0">
+                <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
+                  <img src="./assets/images/svg/icons/spring.jpg" class="img-fluid rounded-start" alt="Spring Projects">
+                </div>
+                <div class="col-sm-8 col-md-8">
+                  <div class="card-body">
+                    <div class="card-title"></div>
+                    <div class="card-text">
+                      <ul class="list-group">
+                        <li class="list-group-item border-0">
+                          <h6>Spring Boot</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Spring MVC</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Spring Security</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Spring ORM with Hibernate</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Spring Services - REST & SOAP</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Spring Batch</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Spring Data JPA</h6>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-header">
+                <h6>Other Technologies & Libraries</h5>
+              </div>
+
+              <div class="row g-0">
+                <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
+                  <img src="./assets/images/svg/icons/settings-icon.svg" class="img-fluid rounded-start" alt="Misc Tools & Technologies">
+                </div>
+                <div class="col-sm-8 col-md-8">
+                  <div class="card-body">
+                    <div class="card-title"></div>
+                    <div class="card-text">
+                      <ul class="list-group">
+                        <li class="list-group-item border-0">
+                          <h6>JMS Queue</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Hibernate</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>FreeMarker Template</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6><small>OWASP Projects:</small> Encoders, CSRFGuard</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6><small>jQuery Projects:</small> jqGrid, UI</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6><small>Typescript Projects:</small> RxJs, Redux</h6>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-header">
+                <h6>Testing Tools & Frameworks</h5>
+              </div>
+
+              <div class="row g-0">
+                <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
+                  <img src="./assets/images/svg/icons/quality-check-icon.svg" class="img-fluid rounded-start" alt="Testing Tools">
+                </div>
+                <div class="col-sm-8 col-md-8">
+                  <div class="card-body">
+                    <div class="card-title"></div>
+                    <div class="card-text">
+                      <ul class="list-group">
+                        <li class="list-group-item border-0">
+                          <h6>JUnit5 with Mockito</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Cucumber</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Selenium & TestNG</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Jasmine & Karma</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>jGiven</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>OWASP ZAP</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>ClamAv</h6>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-header align-items-center text-center">
-                    <h6>Frontend: Programming Languages & Frameworks</h5>
-                  </div>
-                  <div class="row g-0">
-                    <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
-                      <img src="./assets/images/svg/icons/web-development-icon.svg"
-                       class="img-fluid rounded-start" alt="Frontend Development">
-                    </div>
-                    <div class="col-sm-8 col-md-8">
-                      <div class="card-body">
-                        <div class="card-title"></div>
-                        <div class="card-text">
-                          <ul class="list-group">
-                            <li class="list-group-item border-0"><h6>Angular</h6></li>
-                            <li class="list-group-item border-0"><h6>Bootstrap</h6></li>
-                            <li class="list-group-item border-0"><h6>HTML5 & CSS3</h6></li>
-                            <li class="list-group-item border-0"><h6>Sass</h6></li>
-                            <li class="list-group-item border-0"><h6>JSP & JSTL</h6></li>
-                            <li class="list-group-item border-0"><h6>JS & jQuery</h6></li>
-                          </ul>
-                        </div>
-                      </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-header">
+                <h6>Web & App Servers</h5>
+              </div>
+
+              <div class="row g-0">
+                <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
+                  <img src="./assets/images/svg/icons/data-processing-icon.svg" class="img-fluid rounded-start" alt="Servers">
+                </div>
+                <div class="col-sm-8 col-md-8">
+                  <div class="card-body">
+                    <div class="card-title"></div>
+                    <div class="card-text">
+                      <ul class="list-group">
+                        <li class="list-group-item border-0">
+                          <h6>Apache Tomcat</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Oracle WebLogic 12c</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Jetty</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Nginx Web Server</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Apache2 Web Server</h6>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-header">
-                    <h6>Backend: Persistent Database</h5>
-                  </div>
+            </div>
+          </div>
 
-                  <div class="row g-0">
-                    <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
-                      <img src="./assets/images/svg/icons/backend-database-development-icon.svg"
-                       class="img-fluid rounded-start" alt="Database Development">
-                    </div>
-                    <div class="col-sm-8 col-md-8">
-                      <div class="card-body">
-                        <div class="card-title"></div>
-                        <div class="card-text">
-                          <ul class="list-group">
-                            <li class="list-group-item border-0"><h6>Oracle Database 11g-18c</h6></li>
-                            <li class="list-group-item border-0"><h6>SQL</h6></li>
-                            <li class="list-group-item border-0"><h6>PLSQL</h6></li>
-                            <li class="list-group-item border-0"><h6>DBA (Beginner Level)</h6></li>
-                            <li class="list-group-item border-0"><h6>Flyway</h6></li>
-                          </ul>
-                        </div>
-                      </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-header">
+                <h6>CICD Tools</h5>
+              </div>
+
+              <div class="row g-0">
+                <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
+                  <img src="./assets/images/svg/icons/cicd-icon.png" class="img-fluid rounded-start" alt="CICD Tools">
+                </div>
+                <div class="col-sm-8 col-md-8">
+                  <div class="card-body">
+                    <div class="card-title"></div>
+                    <div class="card-text">
+                      <ul class="list-group">
+                        <li class="list-group-item border-0">
+                          <h6>Flyway</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Jenkins</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>GitLab</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Nexus</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>Git</h6>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-header">
-                    <h6>Spring Projects</h5>
-                  </div>
+            </div>
+          </div>
 
-                  <div class="row g-0">
-                    <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
-                      <img src="./assets/images/svg/icons/spring.jpg"
-                       class="img-fluid rounded-start" alt="Spring Projects">
-                    </div>
-                    <div class="col-sm-8 col-md-8">
-                      <div class="card-body">
-                        <div class="card-title"></div>
-                        <div class="card-text">
-                          <ul class="list-group">
-                            <li class="list-group-item border-0"><h6>Spring Boot</h6></li>
-                            <li class="list-group-item border-0"><h6>Spring MVC</h6></li>
-                            <li class="list-group-item border-0"><h6>Spring Security</h6></li>
-                            <li class="list-group-item border-0"><h6>Spring ORM with Hibernate</h6></li>
-                            <li class="list-group-item border-0"><h6>Spring Services -  REST & SOAP</h6></li>
-                            <li class="list-group-item border-0"><h6>Spring Batch</h6></li>
-                            <li class="list-group-item border-0"><h6>Spring Data JPA</h6></li>
-                          </ul>
-                        </div>
-                      </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-header">
+                <h6>Other Tools</h5>
+              </div>
+
+              <div class="row g-0">
+                <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
+                  <img src="./assets/images/svg/icons/directory-tools-icon.svg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-sm-8 col-md-8">
+                  <div class="card-body">
+                    <div class="card-title"></div>
+                    <div class="card-text">
+                      <ul class="list-group">
+                        <li class="list-group-item border-0">
+                          <h6>Maven</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>SonarQube</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>MAT</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>SVN</h6>
+                        </li>
+                        <li class="list-group-item border-0">
+                          <h6>JIRA & Confluence</h6>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-header">
-                    <h6>Other Technologies & Libraries</h5>
-                  </div>
-
-                  <div class="row g-0">
-                    <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
-                      <img src="./assets/images/svg/icons/settings-icon.svg"
-                       class="img-fluid rounded-start" alt="Misc Tools & Technologies">
-                    </div>
-                    <div class="col-sm-8 col-md-8">
-                      <div class="card-body">
-                        <div class="card-title"></div>
-                        <div class="card-text">
-                          <ul class="list-group">
-                            <li class="list-group-item border-0"><h6>JMS Queue</h6></li>
-                            <li class="list-group-item border-0"><h6>Hibernate</h6></li>
-                            <li class="list-group-item border-0"><h6>FreeMarker Template</h6></li>
-                            <li class="list-group-item border-0"><h6><small>OWASP Projects:</small> Encoders, CSRFGuard</h6></li>
-                            <li class="list-group-item border-0"><h6><small>jQuery Projects:</small> jqGrid, UI</h6></li>
-                            <li class="list-group-item border-0"><h6><small>Typescript Projects:</small> RxJs, Redux</h6></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-header">
-                    <h6>Testing Tools & Frameworks</h5>
-                  </div>
-
-                  <div class="row g-0">
-                    <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
-                      <img src="./assets/images/svg/icons/quality-check-icon.svg"
-                       class="img-fluid rounded-start" alt="Testing Tools">
-                    </div>
-                    <div class="col-sm-8 col-md-8">
-                      <div class="card-body">
-                        <div class="card-title"></div>
-                        <div class="card-text">
-                          <ul class="list-group">
-                            <li class="list-group-item border-0"><h6>JUnit5 with Mockito</h6></li>
-                            <li class="list-group-item border-0"><h6>Cucumber</h6></li>
-                            <li class="list-group-item border-0"><h6>Selenium & TestNG</h6></li>
-                            <li class="list-group-item border-0"><h6>Jasmine & Karma</h6></li>
-                            <li class="list-group-item border-0"><h6>jGiven</h6></li>
-                            <li class="list-group-item border-0"><h6>OWASP ZAP</h6></li>
-                            <li class="list-group-item border-0"><h6>ClamAv</h6></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-header">
-                    <h6>Web & App Servers</h5>
-                  </div>
-
-                  <div class="row g-0">
-                    <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
-                      <img src="./assets/images/svg/icons/data-processing-icon.svg"
-                       class="img-fluid rounded-start" alt="Servers">
-                    </div>
-                    <div class="col-sm-8 col-md-8">
-                      <div class="card-body">
-                        <div class="card-title"></div>
-                        <div class="card-text">
-                          <ul class="list-group">
-                            <li class="list-group-item border-0"><h6>Apache Tomcat</h6></li>
-                            <li class="list-group-item border-0"><h6>Oracle WebLogic 12c</h6></li>
-                            <li class="list-group-item border-0"><h6>Jetty</h6></li>
-                            <li class="list-group-item border-0"><h6>Nginx Web Server</h6></li>
-                            <li class="list-group-item border-0"><h6>Apache2 Web Server</h6></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-header">
-                    <h6>CICD Tools</h5>
-                  </div>
-
-                  <div class="row g-0">
-                    <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
-                      <img src="./assets/images/svg/icons/cicd-icon.png"
-                       class="img-fluid rounded-start" alt="CICD Tools">
-                    </div>
-                    <div class="col-sm-8 col-md-8">
-                      <div class="card-body">
-                        <div class="card-title"></div>
-                        <div class="card-text">
-                          <ul class="list-group">
-                            <li class="list-group-item border-0"><h6>Flyway</h6></li>
-                            <li class="list-group-item border-0"><h6>Jenkins</h6></li>
-                            <li class="list-group-item border-0"><h6>GitLab</h6></li>
-                            <li class="list-group-item border-0"><h6>Nexus</h6></li>
-                            <li class="list-group-item border-0"><h6>Git</h6></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-header">
-                    <h6>Other Tools</h5>
-                  </div>
-
-                  <div class="row g-0">
-                    <div class="col-sm-8 col-md-4 logo-container align-items-center text-center">
-                      <img src="./assets/images/svg/icons/directory-tools-icon.svg"
-                       class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-sm-8 col-md-8">
-                      <div class="card-body">
-                        <div class="card-title"></div>
-                        <div class="card-text">
-                          <ul class="list-group">
-                            <li class="list-group-item border-0"><h6>Maven</h6></li>
-                            <li class="list-group-item border-0"><h6>SonarQube</h6></li>
-                            <li class="list-group-item border-0"><h6>MAT</h6></li>
-                            <li class="list-group-item border-0"><h6>SVN</h6></li>
-                            <li class="list-group-item border-0"><h6>JIRA & Confluence</h6></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
+            </div>
           </div>
 
         </div>
+
       </div>
+    </div>
 
-    </section>
+  </section>
 
-    <!-- ########################## Expertness ########################## -->
+  <!-- ########################## Expertness ########################## -->
 
-    <section id="expertnessSection" class="expertness">
-      <div class="container">
-        <div class="expertness__header">
-          <h1 class="title">Expertness</h1>
-          <hr size="10" />
-        </div>
-        <div class="row expertness__content">
-          <div class="col-lg-6 align-items-start">
-            <div class="expertness__content__text">
-              <h2 class="mb-4 mt-4">
-                I'm having good experiance on transfermation and migration
-                projects.
+  <section id="expertnessSection" class="expertness">
+    <div class="container">
+      <div class="expertness__header">
+        <h1 class="title">Expertness</h1>
+        <hr size="10" />
+      </div>
+      <div class="row expertness__content">
+        <div class="col-lg-6 align-items-start">
+          <div class="expertness__content__text">
+            <h2 class="mb-4 mt-4">
+              I'm having good experiance on transfermation and migration
+              projects.
               </h6>
               <p>
                 Please find below some of my transfermation projects.
@@ -460,232 +539,346 @@
                 </dd>
 
               </dl>
-            </div>
           </div>
-          <div class="col-lg-5 align-items-end m-auto">
-            <div class="expertness__content__img">
-              <img src="assets/images/svg/Hero-employee.svg" class="home__intro__pic__icon" />
-            </div>
+        </div>
+        <div class="col-lg-5 align-items-end m-auto">
+          <div class="expertness__content__img">
+            <img src="assets/images/svg/Hero-employee.svg" class="home__intro__pic__icon" />
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- ########################## Roles & Responsibilities ########################## -->
+  <!-- ########################## Roles & Responsibilities ########################## -->
 
-    <section id="rolesSection" class="roles">
-      <div class="container">
-        <div class="roles__header">
-          <h1 class="title">Roles & Responsibilities</h1>
-          <hr size="10" />
-        </div>
-        <div class="row roles__content">
-          <div class="col-12">
+  <section id="rolesSection" class="roles">
+    <div class="container">
+      <div class="roles__header">
+        <h1 class="title">Roles & Responsibilities</h1>
+        <hr size="10" />
+      </div>
+      <div class="row roles__content">
+        <div class="col-12">
 
-            <div class="accordion roles__content__accordion" id="rolesAccordion">
+          <div class="accordion roles__content__accordion" id="rolesAccordion">
 
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                    <h6> <img src="./assets/images/svg/icons/java-icon.svg" class="role-icon" alt="Java"/> Java Designer & Developer</h6>
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#rolesAccordion">
-                  <div class="accordion-body">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                  aria-controls="collapseOne">
+                  <h6> <img src="./assets/images/svg/icons/java-icon.svg" class="role-icon" alt="Java" /> Java Designer & Developer</h6>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#rolesAccordion">
+                <div class="accordion-body">
 
-                    <ul class="square-bullet-list">
-                      <li>8+ years of commendable experience in J2EE web application development</li>
-                      <li>Performed major framework upgrades in Spring, Hibernate & Apache Wicket</li>
-                      <li>Developed various modules using Spring and Hibernate Framework to improve application performance and user experiance,
-                        <ul class="col-span-2 mt-2 mb-2 circle-checked-bullet-list">
-                          <li>Implemented JWT Token based Authentication & Authorization</li>
-                          <li>HTML Based Email Notification using CKEditor & FreeMarker</li>
-                          <li>Push Notification using Spring Web Socket</li>
-                          <li>Hot Keys Implementation</li>
-                          <li>Java & Hibernate Second Level caching</li>
-                          <li>Web Incident Reporting Tool</li>
-                        </ul>
-                      </li>
-                      <li>Implemented CICD pipeline from the scratch using Jenkins</li>
-                      <li>Automated Database Deployment using Flyway in CICD pipeline</li>
-                      <li>Automated E2E Test usecases using JGiven, Selenium & TestNG</li>
-                      <li>Introduced various libraries to improve application security,
-                        <ul class="col-span-2 mt-2 circle-checked-bullet-list">
-                          <li>OWASP's ESAPI, Encoder & CSRFGuard</li>
-                          <li>ClamAV to scan files for vulnerabilities</li>
-                          <li>Aspose for image resizing to remove embeded vulnerable scripts</li>
-                          <li>OWASP ZAP Tool for security testing</li>
-                        </ul>
-                      </li>
-                    </ul>
+                  <ul class="square-bullet-list">
+                    <li>8+ years of commendable experience in J2EE web application development</li>
+                    <li>Performed major framework upgrades in Spring, Hibernate & Apache Wicket</li>
+                    <li>Developed various modules using Spring and Hibernate Framework to improve application performance and user experiance,
+                      <ul class="col-span-2 mt-2 mb-2 circle-checked-bullet-list">
+                        <li>Implemented JWT Token based Authentication & Authorization</li>
+                        <li>HTML Based Email Notification using CKEditor & FreeMarker</li>
+                        <li>Push Notification using Spring Web Socket</li>
+                        <li>Hot Keys Implementation</li>
+                        <li>Java & Hibernate Second Level caching</li>
+                        <li>Web Incident Reporting Tool</li>
+                      </ul>
+                    </li>
+                    <li>Implemented CICD pipeline from the scratch using Jenkins</li>
+                    <li>Automated Database Deployment using Flyway in CICD pipeline</li>
+                    <li>Automated E2E Test usecases using JGiven, Selenium & TestNG</li>
+                    <li>Introduced various libraries to improve application security,
+                      <ul class="col-span-2 mt-2 circle-checked-bullet-list">
+                        <li>OWASP's ESAPI, Encoder & CSRFGuard</li>
+                        <li>ClamAV to scan files for vulnerabilities</li>
+                        <li>Aspose for image resizing to remove embeded vulnerable scripts</li>
+                        <li>OWASP ZAP Tool for security testing</li>
+                      </ul>
+                    </li>
+                  </ul>
 
-                  </div>
                 </div>
               </div>
+            </div>
 
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                    <h6> <img src="./assets/images/svg/icons/angular-icon.svg" class="role-icon" alt="Java"/> Angular Developer</h6>
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#rolesAccordion">
-                  <div class="accordion-body">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                  aria-controls="collapseTwo">
+                  <h6> <img src="./assets/images/svg/icons/angular-icon.svg" class="role-icon" alt="Java" /> Angular Developer</h6>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#rolesAccordion">
+                <div class="accordion-body">
 
-                    <ul class="square-bullet-list">
-                      <li>Implemented JWT based Authentication & Authorization</li>
-                      <li>Implemented various modules using RxJs & Redux state management libraries</li>
-                      <li>Automated E2E test usecases using Cocumber & Jasmine</li>
-                      <li>Implemented various plugins using jQuery, jQuery UI, jqGrid & CKEditor to improve application performance and user experiance</li>
-                      <li>Migrated Velocity template to Angular template</li>
-                    </ul>
+                  <ul class="square-bullet-list">
+                    <li>Implemented JWT based Authentication & Authorization</li>
+                    <li>Implemented various modules using RxJs & Redux state management libraries</li>
+                    <li>Automated E2E test usecases using Cocumber & Jasmine</li>
+                    <li>Implemented various plugins using jQuery, jQuery UI, jqGrid & CKEditor to improve application performance and user experiance</li>
+                    <li>Migrated Velocity template to Angular template</li>
+                  </ul>
 
-                  </div>
                 </div>
               </div>
+            </div>
 
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <h6> <img src="./assets/images/svg/icons/database-icon.svg" class="role-icon" alt="Java"/>Oracle PL/SQL Developer</h6>
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#rolesAccordion">
-                  <div class="accordion-body">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                  aria-controls="collapseThree">
+                  <h6> <img src="./assets/images/svg/icons/database-icon.svg" class="role-icon" alt="Java" />Oracle PL/SQL Developer</h6>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#rolesAccordion">
+                <div class="accordion-body">
 
-                    <ul class="square-bullet-list">
-                      <li>Having Good experiance in SQL & PLSQL Development with 11g, 12c, 18c versions</li>
-                      <li>Oracle Certified PLSQL Developer</li>
-                      <li>Having 2+ years of experiance as ASG DBA</li>
-                      <li>Performed THREE database upgrades from 11g to 18c</li>
-                      <li>Automated Database deployment using Flyway in CICD pipeline</li>
-                      <li>Performed various database performance tuning activites and data modeling,
-                        <ul class="circle-checked-bullet-list col-span-3">
-                          <li>Indexing</li>
-                          <li>Query rewriting</li>
-                          <li>Partitioning</li>
-                          <li>Flashback Archive</li>
-                          <li>Second Level Caching</li>
-                          <li>Job Scheduling</li>
-                        </ul>
-                      </li>
-                      <li>Implemented new plugin to automate archive & purge partitions from source to archive table based on retention & purge policy</li>
-                    </ul>
+                  <ul class="square-bullet-list">
+                    <li>Having Good experiance in SQL & PLSQL Development with 11g, 12c, 18c versions</li>
+                    <li>Oracle Certified PLSQL Developer</li>
+                    <li>Having 2+ years of experiance as ASG DBA</li>
+                    <li>Performed THREE database upgrades from 11g to 18c</li>
+                    <li>Automated Database deployment using Flyway in CICD pipeline</li>
+                    <li>Performed various database performance tuning activites and data modeling,
+                      <ul class="circle-checked-bullet-list col-span-3">
+                        <li>Indexing</li>
+                        <li>Query rewriting</li>
+                        <li>Partitioning</li>
+                        <li>Flashback Archive</li>
+                        <li>Second Level Caching</li>
+                        <li>Job Scheduling</li>
+                      </ul>
+                    </li>
+                    <li>Implemented new plugin to automate archive & purge partitions from source to archive table based on retention & purge policy</li>
+                  </ul>
 
-                  </div>
                 </div>
               </div>
-
             </div>
 
           </div>
-        </div>
 
+        </div>
       </div>
-    </section>
+
+    </div>
+  </section>
 
 
   <!-- ########################## Achievements ########################## -->
   <section id="achievementSection" class="achievement">
     <div class="container">
       <div class="achievement__header">
-          <h1 class="title">Achievement</h1>
-          <hr size="10" />
-        </div>
+        <h1 class="title">Achievement</h1>
+        <hr size="10" />
+      </div>
 
-        <div class="achievement__content">
-          <div class="row row-cols-1 row-cols-md-2">
+      <div class="achievement__content">
+        <div class="row row-cols-1 row-cols-md-2">
 
 
-            <div class="col">
-              <div class="card h-100">
-                <div class="row g-0 h-100">
-                  <div class="col-sm-8 col-md-4 vendor-logo">
-                    <img src="./assets/images/svg/icons/oracle-icon.svg"
-                     class="img-fluid rounded-start" alt="Oracle">
-                  </div>
-                  <div class="col-sm-8 col-md-8">
-                    <div class="card-body">
-                      <h4 class="card-title">Oracle Certified PLSQL Developer</h4>
-                      <p class="card-text">1Z0-147	- Program with PL/SQL	</p>
-                      <p class="card-text">1Z0-051	- Oracle Database: SQL Fundamentals I	</p>
-                      <p class="card-text text-muted">1Z0-819-J	- Java SE 11 Developer	[Participated]</p>
-                    </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="row g-0 h-100">
+                <div class="col-sm-12 col-md-4 vendor-logo text-center align-items-center m-auto pt-4 pb-4">
+                  <img src="./assets/images/svg/icons/oracle-icon.svg" class="img-fluid rounded-start" alt="Oracle">
+                </div>
+                <div class="col-sm-8 col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title">Oracle Certified PLSQL Developer</h4>
+                    <p class="card-text">1Z0-147 - Program with PL/SQL </p>
+                    <p class="card-text">1Z0-051 - Oracle Database: SQL Fundamentals I </p>
+                    <p class="card-text text-muted">1Z0-819-J - Java SE 11 Developer [Participated]</p>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div class="col">
-              <div class="card h-100">
-                <div class="row g-0 h-100">
-                  <div class="col-sm-8 col-md-4 vendor-logo">
-                    <img src="./assets/images/svg/icons/tata-consultancy-services-logo-svg-vector.svg"
-                     class="img-fluid rounded-start" alt="TCS">
-                  </div>
-                  <div class="col-sm-8 col-md-8">
-                    <div class="card-body">
-                      <h4 class="card-title">Tata Consultancy Services (TCS)</h4>
-                      <p class="card-text">Received TWO times <strong>Service Commitment Award</strong> for successfully completing Database upgrades</p>
-                      <p class="card-text">Received <strong>On Spot Award</strong> for successfull deliverables</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card h-100">
-                <div class="row g-0 h-100">
-                  <div class="col-sm-8 col-md-4 vendor-logo">
-                    <img src="./assets/images/svg/icons/bt-icon.svg"
-                     class="img-fluid rounded-start" alt="BT">
-                  </div>
-                  <div class="col-sm-8 col-md-8">
-                    <div class="card-body">
-                      <h4 class="card-title">British Telecom (BT)</h4>
-                      <p class="card-text">Received award for successfully completing VDC to Enterprise Cloud migration</p>
-                      <p class="card-text">Received award for implementing innovative changes in projects</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card h-100">
-                <div class="row g-0 h-100">
-                  <div class="col-sm-8 col-md-4 vendor-logo">
-                    <img src="./assets/images/svg/icons/telefonica-icon.svg"
-                     class="img-fluid rounded-start" alt="Telefónica">
-                  </div>
-                  <div class="col-sm-8 col-md-8">
-                    <div class="card-body">
-                      <h4 class="card-title">Telefónica</h4>
-                      <p class="card-text">Received <strong>Excellence Award</strong> for successfully completing TWO Database upgrades</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-
           </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="row g-0 h-100">
+                <div class="col-sm-12  col-md-4 vendor-logo text-center align-items-center m-auto pt-4 pb-4">
+                  <img src="./assets/images/svg/icons/tata-consultancy-services-logo-svg-vector.svg" class="img-fluid rounded-start" alt="TCS">
+                </div>
+                <div class="col-sm-8 col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title">Tata Consultancy Services (TCS)</h4>
+                    <p class="card-text">Received TWO times <strong>Service Commitment Award</strong> for successfully completing Database upgrades</p>
+                    <p class="card-text">Received <strong>On Spot Award</strong> for successfull deliverables</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="row g-0 h-100">
+                <div class="col-sm-12  col-md-4 vendor-logo text-center align-items-center m-auto pt-4 pb-4">
+                  <img src="./assets/images/svg/icons/bt-icon.svg" class="img-fluid rounded-start" alt="BT">
+                </div>
+                <div class="col-sm-8 col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title">British Telecom (BT)</h4>
+                    <p class="card-text">Received award for successfully completing VDC to Enterprise Cloud migration</p>
+                    <p class="card-text">Received award for implementing innovative changes in projects</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="row g-0 h-100">
+                <div class="col-sm-12 col-md-4 vendor-logo text-center align-items-center m-auto pt-4 pb-4">
+                  <img src="./assets/images/svg/icons/telefonica-icon.svg" class="img-fluid rounded-start" alt="Telefónica">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title">Telefónica</h4>
+                    <p class="card-text">Received <strong>Excellence Award</strong> for successfully completing TWO Database upgrades</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
+      </div>
+
     </div>
-
-
-
-
   </section>
 
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+  <!-- ########################## Experience ########################## -->
+  <section id="experienceSection" class="experience">
+
+    <div class="container">
+      <div class="row experiance__header">
+        <h1 class="title">Experience</h1>
+        <hr size="10" />
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="main-timeline">
+
+            <div class="timeline">
+              <div class="timeline-content">
+                <span class="date">
+                  <span class="month">Jan</span>
+                  <span class="year">2013</span>
+                </span>
+                <h2 class="title">Tata Consultancy Services</h2>
+                <div class="description">
+                  <p>8 Years [Jan 2013 - Dec 2020]</p>
+                  <p>Java Full Stack Developer </p>
+                  <p>Chennai, Tamil Nadu, India</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline">
+              <div class="timeline-content">
+                <span class="date">
+                  <span class="month">Jan</span>
+                  <span class="year">2021</span>
+                </span>
+                <h2 class="title">1&1 Mail & Media Development & Technology GmbH</h2>
+                <div class="description">
+                  <p>Jan 2021 - Present</p>
+                  <p>Java Developer </p>
+                  <p>München, Bayern, Deutschland</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- ########################## Education ########################## -->
+  <section id="educationSection" class="education">
+
+    <div class="container">
+      <div class="row education__header">
+        <h1 class="title">Education</h1>
+        <hr size="10" />
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="main-timeline">
+
+            <div class="timeline">
+              <div class="timeline-content">
+                <span class="date">
+                  <span class="month">May</span>
+                  <span class="year">2012</span>
+                </span>
+                <h2 class="title">B.E – Computer Science and Engineering</h2>
+                <div class="description">
+                  <p>National Engineering College</p>
+                  <p>Scored GPA 8 out of 10 </p>
+                  <p>Thoothukudi, Tamil Nadu, India</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline">
+              <div class="timeline-content">
+                <span class="date">
+                  <span class="month">May</span>
+                  <span class="year">2008</span>
+                </span>
+                <h2 class="title">XII – COMPUTER SCIENCE</h2>
+                <div class="description">
+                  <p>Dr. G.U.Pope's Memorial Higher Secondary School</p>
+                  <p>Scored 84%</p>
+                  <p>Thoothukudi, Tamil Nadu, India</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline">
+              <div class="timeline-content">
+                <span class="date">
+                  <span class="month">May</span>
+                  <span class="year">2006</span>
+                </span>
+                <h2 class="title">SSLC - X</h2>
+                <div class="description">
+                  <p>Govt. Higher Secondary School</p>
+                  <p>Scored 77%</p>
+                  <p>Thoothukudi, Tamil Nadu, India</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
 </html>
