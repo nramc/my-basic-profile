@@ -1,0 +1,22 @@
+@use '../custom' as *;
+@use '../components/mixins.scss' as *;
+
+.roles {
+  min-height: 100vh;
+  color: $primary;
+  background: url("../../assets/images/svg/roles-wave.svg") no-repeat 100%;
+  background-position-y: bottom;
+  padding-bottom: 4rem;
+  &__content {
+    &__accordion {
+      height: auto;
+      .role-icon {
+        margin-right: 1rem;
+      }
+
+      li {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
