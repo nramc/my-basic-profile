@@ -1,0 +1,32 @@
+@use '../custom' as *;
+@use '../components/mixins.scss' as *;
+
+.achievement {
+  min-height: 100vh;
+  color: $primary;
+  background: url("../../assets/images/svg/roles-wave.svg") no-repeat 100%;
+  background-position-y: bottom;
+  padding-bottom: 4rem;
+
+  &__content {
+    .col {
+      padding: 0 0.7rem 0.7rem 0;
+    }
+
+    .card {
+      border-radius: 1rem;
+      border-color: $pink;
+      border-width: 0.4rem;
+
+      .vendor-logo {
+        position: relative;
+
+        img {
+          @include absoluteCenter;
+          max-height: 10rem;
+          max-width: 10rem;
+        }
+      }
+    }
+  }
+}
