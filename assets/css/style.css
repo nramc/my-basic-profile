@@ -11169,14 +11169,7 @@ ul.shield-checked-bullet-list {
   border-color: #9047d4;
   border-width: 0.4rem;
 }
-.achievement__content .card .vendor-logo {
-  position: relative;
-}
 .achievement__content .card .vendor-logo img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   max-height: 10rem;
   max-width: 10rem;
 }
@@ -11185,6 +11178,13 @@ ul.shield-checked-bullet-list {
   min-height: 100vh;
   background: url("../../assets/images/svg/roles-wave.svg") no-repeat 100%;
   background-position-y: bottom;
+}
+
+.education {
+  min-height: 100vh;
+  background: url("../../assets/images/svg/roles-wave.svg") no-repeat 100%;
+  background-position-y: bottom;
+  padding-bottom: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
