@@ -1,0 +1,40 @@
+@use '../custom' as *;
+@use '../components/mixins.scss' as *;
+
+.aboutMe {
+  min-height: 100vh;
+  background: url("../../assets/images/svg/roles-wave.svg") no-repeat 100%;
+  background-position-y: bottom;
+  padding-bottom: 4rem;
+
+  &__content {
+    &__pic {
+      height: 15rem;
+      width: 15rem;
+      border-radius: 50%;
+      z-index: 1;
+      //transform: translateY(7.5rem);
+      border: 0.2rem solid $primary;
+    }
+    &__story {
+      margin-top: -4rem;
+      padding-top: 4rem;
+      border-radius: 2rem;
+      border: 0.2rem solid $primary;
+      box-sizing: border-box;
+      z-index: -1;
+      color: $primary;
+      font-weight: 200;
+      font-size: 1.1rem;
+
+      font-family: Arial, Helvetica, sans-serif;
+
+      ul.details-list {
+        list-style: none;
+        border-left: 2px dashed $primary;
+        margin-left: 1rem;
+        line-height: 2rem;
+      }
+    }
+  }
+}
