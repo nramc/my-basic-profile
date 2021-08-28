@@ -12,7 +12,6 @@ for (const section of sections) {
 function addAndRemoveActivateStatus(menuLinks, hrefValue) {
     for (const link of menuLinks) {
         const hrefValOfElement = link.getAttribute('href');
-        console.log(hrefValOfElement);
         if (hrefValOfElement && hrefValOfElement.includes(hrefValue)) {
             link.classList.add('active');
         } else {

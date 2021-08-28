@@ -35,6 +35,11 @@
         margin-left: 1rem;
         line-height: 2rem;
       }
+
+      &__card {
+        border: 0.1rem solid $secondary;
+        font-size: 1rem;
+      }
     }
   }
 }
