@@ -10,13 +10,14 @@
   <link rel="alternate icon" href="favicon.ico">
 
   <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+  <link href="assets/css/fontawesome.css"  rel="stylesheet">
 
   <link rel="stylesheet" href="assets/css/style.css" />
 
   <title>My Profile</title>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navMenu">
+<body>
   <!-- Menu bar -->
   <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top" id="navMenu">
     <div class="container">
@@ -26,9 +27,9 @@
         <span>Ramachandran Nellaiyappan</span>
       </button>
       <div class="collapse navbar-collapse justify-content-lg-start" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav" id="navLinks">
           <li class="nav-item">
-            <a class="nav-link" href="#homeSection">Home</a>
+            <a class="nav-link active" href="#homeSection">Home</a>
           </li>
 
           <li class="nav-item">
@@ -51,6 +52,7 @@
           </li>
 
           <li class="nav-item"><a class="nav-link" href="#aboutMeSection">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contactSection">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -78,7 +80,7 @@
             </p>
 
             <p>
-              You can find out more <a href="#aboutMeSection" class="aboutMeLink">about me</a>.
+              You can find out more <a href="#aboutMeSection" class="aboutMeLink">about me</a> and <a href="#contactSection">contact</a> details.
             </p>
 
           </div>
@@ -897,7 +899,11 @@
 
       <div class="row">
         <div class="col-12 aboutMe__content__story">
-          <h5>Thank you for your intrest to know more about me..!</h5>
+          <h5 class="mb-4">
+            <i class="em em-tada" aria-role="presentation" aria-label="PARTY POPPER"></i>
+            First of all, Thank you for your intrest to know more about me..!
+            <i class="em em-tada" aria-role="presentation" aria-label="PARTY POPPER"></i>
+          </h5>
 
           <dl>
 
@@ -910,7 +916,7 @@
                   <i class="em em-male-farmer" aria-role="presentation" aria-label=""></i>
                   <i class="em em-female-farmer" aria-role="presentation" aria-label=""></i>
                 </li>
-                <li>I completed my schools and college in the same district and got placed in TCS during my final year.</li>
+                <li>I completed my schools and college in the same district and got placed in TCS during my college final year.</li>
                 <li>I am happy to say that I'm the first graduate <i class="em em-male-student" aria-role="presentation" aria-label=""></i> from my family. :)</li>
               </ul>
             </dd>
@@ -919,7 +925,7 @@
             <dd>
               <ul class="details-list">
                 <li>After my graduation, I moved <i class="em em-airplane" aria-role="presentation" aria-label="AIRPLANE"></i>
-                   to Chennai City in Tamil Nadu and joined TCS</li>
+                   to Chennai Capital City of Tamil Nadu and joined TCS</li>
                 <li>I worked in TCS for 8 years from 2013 to 2020</li>
                 <li>First six and a half years, I worked for UK British Telecom</li>
                 <li>Then I moved <i class="em em-airplane" aria-role="presentation" aria-label="AIRPLANE"></i> to Germany under deputation,
@@ -937,7 +943,8 @@
                 <li>I learned Database SQL/PLSQL by myself <i class="em em-books" aria-role="presentation" aria-label="BOOKS"></i>
                   and completed Oracle certification</li>
                 <li>I have worked as PLSQL Developer and ASG DBA for TWO years</li>
-                <li>I completed my first database migration  in 2017 from Oracle 11g to 12c. That was one of my best experiance in TCS</li>
+                <li>I completed my first database migration  in 2017 from Oracle 11g to 12c. That was one of my best experiance in TCS
+                   <i class="em em-dart" aria-role="presentation" aria-label="DIRECT HIT"></i></li>
                 <li>Later I completed TWO more database upgrades in Telefonica during 2019 and 2020</li>
               </ul>
             </dd>
@@ -969,14 +976,56 @@
             <dt>My Personality</dt>
             <dd>
               <ul class="details-list">
-                <li>I'm self learner and self motivated person</li>
+                <li>I'm self learner and self motivated person <i class="em em-blossom" aria-role="presentation" aria-label="BLOSSOM"></i></li>
                 <li>I love to learn new technologies and programing lanuages</li>
                 <li>I always think myself as a student and hunger for knowledge never ends <i class="em em-infinity" aria-role="presentation" aria-label=""></i></li>
                 <li>I love to keep myself up to date with technologies and learn more and more</li>
-                <li>I belive <strong>knowledge is power</strong> <i class="em em-zap" aria-role="presentation" aria-label="HIGH VOLTAGE SIGN"></i></li>
+                <li>I belive, <strong>Knowledge is POWER..!</strong> <i class="em em-zap" aria-role="presentation" aria-label="HIGH VOLTAGE SIGN"></i></li>
                 <li></li>
                 <li></li>
               </ul>
+            </dd>
+
+            <dt>My Inspiration</dt>
+            <dd>
+              <div class="row row-cols-1 row-cols-md-2 mt-3">
+
+                <div class="col">
+                  <div class="card h-100 aboutMe__content__story__card">
+                    <div class="row g-0 h-100">
+                      <div class="col-sm-12  col-md-4 vendor-logo text-center align-items-center m-auto pt-4 pb-4">
+                        <img src="./assets/images/APJ-Abdul-Kalam.jpeg" class="img-fluid rounded-start" alt="BT">
+                      </div>
+                      <div class="col-sm-8 col-md-8">
+                        <div class="card-body">
+                          <h4 class="card-title">A. P. J. Abdul Kalam</h4>
+                          <p class="card-text">Former President of India</p>
+                          <p class="card-text">Scientist and Science Administrator at
+                            Defence Research and Development Organisation (DRDO) and Indian Space Research Organisation (ISRO)</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100 aboutMe__content__story__card">
+                    <div class="row g-0 h-100">
+                      <div class="col-sm-12  col-md-4 vendor-logo text-center align-items-center m-auto pt-4 pb-4">
+                        <img src="./assets/images/sundar-pitchai.jpeg" class="img-fluid rounded-start" alt="BT">
+                      </div>
+                      <div class="col-sm-8 col-md-8">
+                        <div class="card-body">
+                          <h4 class="card-title">Sundar Pichai</h4>
+
+                          <p class="card-text"> Chief Executive Officer (CEO) of Alphabet Inc. and Google</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </dd>
 
           </dl>
@@ -990,8 +1039,47 @@
 </section>
 
 
+<!-- ########################## About Me ########################## -->
+<section id="contactSection" class="contact">
+
+  <div class="contact__content">
+
+    <div class="row contact__content__suggestion m-0">
+      <div class="col-8 m-auto align-items-center">
+        <h4>Do you have suggestion or found any issues with this page.?</h4>
+          <ul>
+            <li><a href="https://github.com/nramc/my-basic-profile/issues" target="_blank" >
+              Report a problem with this content on <strong>GitHub</strong></a></li>
+            <li><a href="https://github.com/nramc/my-basic-profile" target="_blank" >
+              Would you like to see source code on <strong>GitHub</strong></a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="row contact__content__links">
+      <div class="col-12 align-items-center text-center">
+        <span>No Copyright</span>
+        <span>| Ramachandran Nellaiyappan</span>
+      </div>
+      <div class="col-12 m-auto text-center align-items-center align-middle">
+        <div>
+          <span>Contact me at </span>
+          <a href="mailto:ramachandrannellai@gmail.com" target="_blank" title="Email"><i class="far fa-envelope icon"></i></a>
+          <a href="https://github.com/nramc" target="_blank" title="GitHub"><i class="fab fa-github-square icon"></i></a>
+          <a href="https://twitter.com/ram_n_74" target="_blank" title="Twitter"><i class="fab fa-twitter-square icon"></i></a>
+          <a href="http://www.linkedin.com/in/ramachandran-nellaiyappan" target="_blank" title="LinkedIn"><i class="fab fa-linkedin icon"></i></a>
+          <a href="https://www.facebook.com/Ramachandrannn" target="_blank" title="Facebook"><i class="fab fa-facebook-square icon"></i></a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 
 </html>
