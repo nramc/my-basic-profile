@@ -32,6 +32,12 @@
         margin-left: 1rem;
         line-height: 2rem;
       }
+      i.em {
+        @include media-breakpoint-down(sm) {
+          display: none;
+        }
+      }
+
       &__inspiration {
         @include media-breakpoint-down(sm) {
           margin-bottom: 0.4rem;
