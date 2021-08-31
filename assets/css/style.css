@@ -11073,6 +11073,7 @@ ul.shield-checked-bullet-list {
 .skills__content .col .card {
   border-radius: 1rem;
   border-color: #371a94;
+  margin-left: 1rem;
 }
 .skills__content .col .card .logo-container img {
   padding-left: 5%;
@@ -11218,11 +11219,12 @@ ul.shield-checked-bullet-list {
   line-height: 2rem;
 }
 @media (max-width: 575.98px) {
+  .aboutMe__content__story ul.details-list li::after {
+    content: ".";
+  }
   .aboutMe__content__story i.em {
     display: none;
   }
-}
-@media (max-width: 575.98px) {
   .aboutMe__content__story__inspiration {
     margin-bottom: 0.4rem;
   }

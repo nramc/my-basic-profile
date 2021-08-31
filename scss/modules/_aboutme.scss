@@ -32,14 +32,15 @@
         margin-left: 1rem;
         line-height: 2rem;
       }
-      i.em {
-        @include media-breakpoint-down(sm) {
+
+      @include media-breakpoint-down(sm) {
+        ul.details-list li::after {
+          content: ".";
+        }
+        i.em {
           display: none;
         }
-      }
-
-      &__inspiration {
-        @include media-breakpoint-down(sm) {
+        &__inspiration {
           margin-bottom: 0.4rem;
         }
       }
