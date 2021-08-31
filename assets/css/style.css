@@ -11209,7 +11209,7 @@ ul.shield-checked-bullet-list {
   z-index: -1;
   color: #371a94;
   font-size: 1.1rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
 }
 .aboutMe__content__story ul.details-list {
   list-style: none;
