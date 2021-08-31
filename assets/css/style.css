@@ -11218,6 +11218,11 @@ ul.shield-checked-bullet-list {
   line-height: 2rem;
 }
 @media (max-width: 575.98px) {
+  .aboutMe__content__story i.em {
+    display: none;
+  }
+}
+@media (max-width: 575.98px) {
   .aboutMe__content__story__inspiration {
     margin-bottom: 0.4rem;
   }
