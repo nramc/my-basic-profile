@@ -34,6 +34,7 @@
       }
 
       @include media-breakpoint-down(sm) {
+        margin-left: 0.5rem;
         ul.details-list li::after {
           content: ".";
         }
