@@ -11219,6 +11219,9 @@ ul.shield-checked-bullet-list {
   line-height: 2rem;
 }
 @media (max-width: 575.98px) {
+  .aboutMe__content__story {
+    margin-left: 0.5rem;
+  }
   .aboutMe__content__story ul.details-list li::after {
     content: ".";
   }
